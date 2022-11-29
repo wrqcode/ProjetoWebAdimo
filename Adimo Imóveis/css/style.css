@@ -105,6 +105,7 @@ header, .navbar {
 
 .main-title{
     color: #444;
+    padding-top: 50px;
     margin: 0 0 65px 0;
     font-size: 40px;
     text-align: center;
@@ -115,7 +116,7 @@ header, .navbar {
     border-top: 2px solid #333;
     width: 15%;
     position: absolute;
-    top: 60px;
+    top: 110px;
     left: 42.5%;
 }
 
