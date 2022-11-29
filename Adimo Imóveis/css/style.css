@@ -202,7 +202,7 @@ header, .navbar {
 }
 
 #company-img {
-    background-image: url(../../Imagens/TrabalheConosco.JPG);
+    background-image: url(../Imagens/TrabalheConosco.JPG);
     background-size: cover;
     height: 100%;
 }
