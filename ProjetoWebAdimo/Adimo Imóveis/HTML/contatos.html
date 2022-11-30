@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADIMO</title>
+    <!-- Google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1c334cadb0.js" crossorigin="anonymous"></script>
+    <!-- Progress Bar -->
+    <script src="../js/progressbar.min.js"></script>
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="../Imagens/logoWBWhite.png" alt="ADIMO">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
+                aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="material-symbols-outlined" style="color: white;">menu</span>
+            </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu">Home</a>
+                        <a class="nav-item nav-link" id="about-menu">Sobre</a>
+                        <a class="nav-item nav-link" id="services-menu">Serviços</a>
+                        <a class="nav-item nav-link" id="team-menu">Time</a>
+                        <a class="nav-item nav-link" id="portfolio-menu">Projetos</a>
+                        <a class="nav-item nav-link" id="contact-menu">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+    <!-- Imoveis / Portfólio -->
+        <div class="container-fluid">
+            <div id="contact-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="main-title">Entre em contato conosco</h3>
+                        </div>
+                        <div class="col-md-4 contact-box">
+                            <i class="fas fa-phone"></i>
+                            <p><span class="contact-title">Ligue para:</span> (11)912349876</p>
+                            <p><span class="contact-title">Horários:</span> 8:00 - 19:00</p>
+                        </div>
+                        <div class="col-md-4 contact-box">
+                            <i class="fas fa-envelope"></i>
+                            <p><span class="contact-title">Envie um e-mail:</span> contato@adimo.com.br</p>
+                        </div>
+                        <div class="col-md-4 contact-box">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p><span class="contact-title">Venha tomar um café:</span> Rua Adimo, 123</p>
+                        </div>
+                        <div class="col-md-6" id="msg-box">
+                            <p>Ou nos deixe uma mensagem:</p>
+                        </div>
+                        <div class="col-md-6" id="contact-form">
+                            <form action="">
+                                <input type="email" class="form-control" placeholder="E-mail" name="email">
+                                <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                                <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                                <input type="submit" class="main-btn" value="Enviar">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <!-- Call to action -->
+        <div id="call-area">
+            <div class="container">
+                <div class="row">
+                    <p>Deseja fazer um orçamento sem compromisso</p>
+                    <button class="main-btn" id="call-btn">Orçar</button>
+                </div>
+            </div>
+         </div>
+        <!-- Newsletter -->
+        <div id="news-area">
+            <div class="container">
+                <div class="col-md-12">
+                    <h3 class="main-title">Fique por dentro dos imóveis disponíveis</h3>
+                </div>
+                <p>Assine nossa lista de e-mails e receba em primeira mão os imóveis disponíveis e alguns descontos</p>
+                <form action="">
+                    <input type="email" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail">
+                    <input type="submit" id="news-btn" value="Inscrever">
+                </form>
+            </div>
+         </div>
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido por <a href="https://www.adimo.com.br" target="_black">ADIMO</a> &copy; 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts do projeto -->
+    <script src="../js/geral.js"></script>
+    <script src="../js/imoveis.js"></script>
+</body>
+</html>
