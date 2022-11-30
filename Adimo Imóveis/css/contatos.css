@@ -5,12 +5,10 @@ body {
 
 .row {
     margin: 0;
-    text-align: center;
 }
 
 .container {
-    padding: 58px 0;
-    text-align: center;
+    padding: 70px 0;
 }
 
 p, li {
@@ -51,58 +49,14 @@ header, .navbar {
     cursor: pointer;
 }
 
-.navbar-toggler {
-    background-color: #ffffff2e;
-    border: 1px solid white;
-}
-
-/* call to action */
-#call-area {
-    background-color: #1e425e;
-    text-transform: uppercase;
-}
-
-#call-area .container {
-    padding: 40px 20px;
-}
-
-#call-area .row {
-    display: block;
-    text-align: center;
-}
-
-#call-area p {
-    color:#FFF;
-    font-weight: bold;
-    font-size: 20px;
-    width: auto;
-    letter-spacing: 2px;
-    margin-bottom: 0;
-    display: inline;
-    height: 60px;
-    line-height: 60px;
-}
-
-#call-area #call-btn {
-    background-color: #FFF;
-    color: #1e425e;
-    font-weight: bold;
-    font-size: 20px;
-    width: auto;
-    letter-spacing: 2px;
-}
-
 /* Slider */
-.w-100 {
-    height: 100%;
-}
 
 .container-fluid {
     padding: 0;
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: 80vh;
+    height: 90vh;
 }
 
 #mainSlider .carousel-caption {
@@ -117,20 +71,8 @@ header, .navbar {
 #mainSlider .carousel-caption p {
     font-size: 22px;
     font-weight: 300;
-    margin-bottom: 2%;
+    margin-bottom: 100px;
     color: #FFF;
-}
-
-@media screen and (max-width: 800px) {
-    #mainSlider .carousel-caption h2 {
-        font-size: 165%;
-        margin-bottom: 25px;
-    }
-
-    #mainSlider .carousel-caption p {
-        font-size: 100%;
-        margin-bottom: 70px;
-    }
 }
 
 .main-btn {
@@ -162,18 +104,12 @@ header, .navbar {
     background-color: #f9f9f9;
 }
 
-.main-title {
+.main-title{
     color: #444;
     padding-top: 50px;
     margin: 0 0 65px 0;
     font-size: 40px;
     text-align: center;
-}
-
-@media screen and (max-width: 800px) {
-    .main-title {
-        padding-top: 0px;
-    }
 }
 
 .main-title::after {
@@ -207,13 +143,6 @@ header, .navbar {
 .service-box {
     text-align: center;
     margin-bottom: 50px;
-}
-
-@media screen and (max-width: 800px) {
-    .service-box {
-        text-align: center;
-        margin-bottom: 50px;
-    }
 }
 
 .service-box i, .service-box h4 {
@@ -251,6 +180,93 @@ header, .navbar {
     text-align: center;
     font-size: 26px;
     margin-top: 20px;
+}
+
+/* Time */
+
+.card-body {
+    text-align: center;
+}
+
+/* Trabalhe conosco */
+
+#apply-area {
+    height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row {
+    height: 100%;
+}
+
+#apply-area .apply-box {
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#company-img {
+    background-image: url(../Imagens/TrabalheConosco.JPG);
+    background-size: cover;
+    height: 100%;
+}
+
+#pattern-img h4, #pattern-img p {
+    color: #1e425e;
+}
+
+#pattern-img h4 {
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img p {
+    margin-bottom: 20px;
+}
+
+#apply-btn {
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: #444;
+    border-color: #444;
+}
+
+#apply-btn:hover {
+    border-color: #1e425e;
+    background-color: #1e425e;
+}
+
+/* Imóveis / Portfólios */
+
+.project-box {
+    margin-bottom: 30px;
+}
+
+#filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portfolio-area .filter-btn {
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover{
+    color: #FFF;
+    background-color: #1e425e;
+    border-color: #1e425e;
 }
 
 /* news letter */
@@ -315,6 +331,43 @@ header, .navbar {
     color: #1e425e;
 }
 
+/* call to action */
+
+#call-area {
+    background-color: #1e425e;
+    text-transform: uppercase;
+}
+
+#call-area .container {
+    padding:  40px 20px;
+
+}
+
+#call-area .row {
+    display: block;
+    text-align: center;
+}
+
+#call-area p {
+    color:#FFF;
+    font-weight: bold;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+}
+
+#call-area #call-btn {
+    background-color: #FFF;
+    color: #1e425e;
+    font-weight: bold;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px;
+}
 
 /* footer */
 

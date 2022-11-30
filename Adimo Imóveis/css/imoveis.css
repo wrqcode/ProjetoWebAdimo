@@ -318,7 +318,7 @@ header, .navbar {
     border: 1px solid #1e425e;
     display: inline;
     box-sizing: border-box;
-    width: 40%;
+    width: 80%;
     height: 40px;
 }
 
@@ -336,6 +336,26 @@ header, .navbar {
     transition: .5s;
 }
 
+@media screen and (max-width: 400px) {
+    .email-box {
+        width: 100%;
+        display: inline-grid;
+        justify-items: center;
+    }
+
+    #email-input {
+        width: 90%;
+        margin: auto;
+        border-radius: 20px;
+    }
+
+    #news-btn {
+        margin: auto;
+        border-radius: 20px;
+        margin-top: 47px;
+    }
+}
+
 #news-btn:hover {
     background-color: #FFF;
     color: #1e425e;
@@ -349,8 +369,7 @@ header, .navbar {
 }
 
 #call-area .container {
-    padding: 40px 100px;
-
+    padding: 40px 20px;
 }
 
 #call-area .row {
@@ -375,7 +394,6 @@ header, .navbar {
     color: #1e425e;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 30px;
     width: auto;
     letter-spacing: 2px;
 }
