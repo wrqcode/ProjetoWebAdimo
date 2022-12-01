@@ -16,7 +16,7 @@ $('#team-menu').click(function(){
 });
 
 $('#portfolio-menu').click(function(){
-    window.location.href = "../HTML/imoveis.html"
+    window.location.href = "../HTML/login.html"
 });
 
 $('#contact-menu').click(function(){
